@@ -1,20 +1,8 @@
-## Author
+Download, build and statically link wxWidgets as the GUI library for your C++ project!
 
-👋 Hi, I'm Luke!
-
-Welcome to my GitHub repository. I'm passionate about making programming accessible and enjoyable for everyone. Whether you're just starting out or an experienced developer, you'll find valuable insights in my tutorials and courses.
-
-🌟 **Support my work:**
-- 🌐 Visit [my website](https://www.lukesdevtutorials.com) for more resources.
-- ▶️ Subscribe to [my YouTube channel](https://www.youtube.com/@lukesdevtutorials) for free tutorials and courses.
-
-Your support means the world to me!
-
-## Project Overview
+[![Video](/output.gif)](https://www.youtube.com/watch?v=zjNg5HdgNO0)
 
 Full Tutorial: https://www.youtube.com/watch?v=zjNg5HdgNO0
-
-Download, build and statically link wxWidgets as the GUI library for your C++ project!
 
 ```cmake
 cmake_minimum_required(VERSION 3.14 FATAL_ERROR)
@@ -43,7 +31,7 @@ add_executable(main WIN32 ${SRCS})
 target_link_libraries(main PRIVATE wxcore wxnet)
 ```
 
-## System Requirements
+### System Requirements
 
 To get started with this project, ensure you have the following tools and libraries:
 
@@ -51,9 +39,9 @@ To get started with this project, ensure you have the following tools and librar
 - **C++ Compiler:** Compatible with Clang, GCC, or MSVC. Choose one based on your development environment.
 - **GTK3 Development Libraries (for Linux users):** Necessary for GUI development on Linux platforms.
 
-## Building the Project
+### Building the Project
 
-# Debug
+#### Debug
 
 Follow these steps to build the project:
 
@@ -69,7 +57,7 @@ Follow these steps to build the project:
 
 This will create a `build` directory and compile all necessary artifacts there. The main executable will be located in `build/`.
 
-# Release
+#### Release
 
 For release build use `--config Release` on Windows:
 
@@ -89,6 +77,10 @@ cmake -S. -Bbuild-rel -DCMAKE_BUILD_TYPE=Release
 cmake --build build-rel -j
 ```
 
-## License
+### License
 
 MIT License. Can be used in closed-source commercial products.
+
+---
+Check out the blog for more! [www.lukesdevtutorials.com](https://www.lukesdevtutorials.com)
+---
