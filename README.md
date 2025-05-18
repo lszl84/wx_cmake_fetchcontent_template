@@ -82,5 +82,5 @@ cmake --build build-rel -j
 MIT License. Can be used in closed-source commercial products.
 
 ---
-Check out the blog for more! [www.lukesdevtutorials.com](https://www.lukesdevtutorials.com)
+Check out the blog for more! [www.onlyfastcode.com](https://www.onlyfastcode.com)
 ---
