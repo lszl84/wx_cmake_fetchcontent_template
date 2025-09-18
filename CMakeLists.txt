@@ -26,11 +26,12 @@ if(APPLE)
 
     # Set a custom plist file for the app bundle - needed for Mac OS Retina display
     set_target_properties(main PROPERTIES MACOSX_BUNDLE_INFO_PLIST ${CMAKE_CURRENT_SOURCE_DIR}/Info.plist)
-else()
+elseif(WIN32)
     # the WIN32 is needed for Windows in order for it to look for WinMain
-    # instead of the main function. This is ignored on other systems,
-    # so it works on all platforms
-    add_executable(main WIN32 ${SRCS} main.exe.manifest)
+    # instead of the main function.
+    add_executable(main WIN32 ${SRCS} main.exe.manifest resources.rc)
+else()
+    add_executable(main ${SRCS})
 endif()
 
 target_link_libraries(main PRIVATE wxcore wxnet)
