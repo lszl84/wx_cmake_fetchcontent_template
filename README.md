@@ -85,4 +85,5 @@ MIT License. Can be used in closed-source commercial products.
 📖 Written tutorial: [wxWidgets with CMake FetchContent](https://devmindscape.com/post/wx-fetchcontent/)
 
 📚 More C++ and wxWidgets tutorials: [devmindscape.com](https://devmindscape.com) · 💼 Available for contract work: [devmindscape.com/work](https://devmindscape.com/work/)
+
 ---
