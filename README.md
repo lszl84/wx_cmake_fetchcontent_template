@@ -82,5 +82,7 @@ cmake --build build-rel -j
 MIT License. Can be used in closed-source commercial products.
 
 ---
-Check out the blog for more! [devmindscape.com](https://devmindscape.com)
+📖 Written tutorial: [wxWidgets with CMake FetchContent](https://devmindscape.com/post/wx-fetchcontent/)
+
+📚 More C++ and wxWidgets tutorials: [devmindscape.com](https://devmindscape.com) · 💼 Available for contract work: [devmindscape.com/work](https://devmindscape.com/work/)
 ---
