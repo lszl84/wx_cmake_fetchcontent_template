@@ -14,6 +14,7 @@ message(STATUS "Fetching wxWidgets...")
 FetchContent_Declare(
    wxWidgets
    GIT_REPOSITORY https://github.com/wxWidgets/wxWidgets.git
+   GIT_TAG v3.2.11
    GIT_SHALLOW ON
 )
 FetchContent_MakeAvailable(wxWidgets)

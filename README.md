@@ -21,6 +21,7 @@ message(STATUS "Fetching wxWidgets...")
 FetchContent_Declare(
    wxWidgets
    GIT_REPOSITORY https://github.com/wxWidgets/wxWidgets.git
+   GIT_TAG v3.2.11
    GIT_SHALLOW ON
 )
 FetchContent_MakeAvailable(wxWidgets)
@@ -30,6 +31,8 @@ set(SRCS main.cpp)
 add_executable(main WIN32 ${SRCS})
 target_link_libraries(main PRIVATE wxcore wxnet)
 ```
+
+`GIT_TAG v3.2.11` pins the latest stable wxWidgets release. For the newer 3.3 series (dark mode on Windows and more), change it to `v3.3.3`.
 
 ### System Requirements
 
